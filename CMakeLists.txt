@@ -3,6 +3,5 @@ project(complex_2025)
 
 set(CMAKE_CXX_STANDARD 20)
 
-add_executable(complex_2025 main.cpp
-        complex.cpp
-        complex.h)
+add_executable(complex_2025 main.cpp complex.h complex.cpp)
+
